@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("../img/photo2.jpg") no-repeat;
+    background-size: cover;
+}
+
+.login-form{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+ .login-form h1{
+    width: 100px;
+    font-size: 40px;
+    border-bottom: 5px solid #a7991d;
+    margin-bottom: 50px;
+    padding: 13px  0;
+    
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid #a7991d;
+}
+.textbox i{
+    width:25px;
+    float:left;
+    text-align: center;
+}
+.textbox input{
+    border:none;
+    outline:none;
+    background: none;
+    color:white;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 8px;
+    float:left;
+}
+.btn{
+    width: 100%;
+    background: none;
+    border: 3px solid #a7991d;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+    margin: 12px 0;
+    border-radius: 15px;
+    padding: 6px 0;
+}
+
+.btn:hover{
+    background:#a7991d;
+}
+
+::placeholder{
+    color:black;
+    opacity: 0.5;
+}
