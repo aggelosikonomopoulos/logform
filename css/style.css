@@ -4,6 +4,8 @@ body{
     font-family: sans-serif;
     background: url("../img/photo2.jpg") no-repeat;
     background-size: cover;
+    height:100vh;
+    background-position:center;
 }
 
 .login-form{
